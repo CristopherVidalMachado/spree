@@ -11,7 +11,6 @@ module Spree
         has_many   :line_items
         has_many   :variants
         has_many   :promotions
-        belongs_to :user
       end
     end
   end
